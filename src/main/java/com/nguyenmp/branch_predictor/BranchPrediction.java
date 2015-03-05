@@ -22,4 +22,8 @@ public enum BranchPrediction {
             default: assert false; return null;
         }
     }
+
+    public int toInt() {
+        return value;
+    }
 }

@@ -7,7 +7,7 @@ public class Driver {
 
     public static void main(String[] args) throws IOException {
         long start = System.currentTimeMillis();
-        BranchPredictor predictor = new SingleBitBimodalPredictor(1024);
+        BranchPredictor predictor = new GlobalPredictor();
 
         int total = 0;
         int correct = 0;
